@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eff2dd;
+    margin: 0;
+    padding: 0;
+}
+
+header > h1 {
+    background-color: #f0d879;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    font-size: 27pt;
+    text-shadow: 
+    1px 1px 0px black,
+    -1px 1px 0px black,
+    1px -1px 0px black,
+    -1px -1px 0px black;
+}
+
+header {
+    background-color: #f0d879;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+
+body header nav a {
+    color: black;
+    margin: 0 10px;
+    text-decoration: none;
+    font-family: system-ui, sans-serif;
+    padding: 2.5px;
+    border: 2px solid #eff2dd;
+    border-radius: 5%;
+}
+
+#search-section {
+    text-align: center;
+    margin: 20px;
+    font-size: 10pt;
+    border: none;
+    border-radius: none;
+
+}
+
+#search-bar {
+    width: 60%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+footer > p {
+    font-size: 10pt;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 15px; /* Spacing between grid items */
+    padding-bottom: 37px;
+   
+}
+
+.grid-item {
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #f0d879;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding: 12px;
+    
+}
+
+footer nav a {
+    text-decoration:none;
+    font-size: 8pt;
+
+}
